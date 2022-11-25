@@ -1,0 +1,38 @@
+h1{font-size:30px;
+text-align:center;
+color:#571f0f;
+background-color:#7c9826;
+border:solid 3px #dec2ba;
+margin:2px;
+padding:10px
+}
+p{
+	font-size:25px;
+	color:#c49fa2;
+	padding:10px;
+	
+}
+blockquote{
+	color:#2e390e;
+	font-size:30px;
+}
+address{
+	padding:10px;
+	margin:1px;
+}
+h2{
+	color:#5b8d7e;
+}
+h3{
+	color:#404040;
+
+}
+.video{
+	padding-top:60px;
+	position:relative;
+	padding-bottom:60px;
+}
+.container1{
+	display:fixed;
+	padding:60px;
+}
