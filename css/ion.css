@@ -4,7 +4,7 @@
 .parent{
 	background-color:white;
 }
-.container1{
+.parent-container{
 	margin-left:auto;
 	margin-right:auto;
 	padding-left:30px;
@@ -12,7 +12,7 @@
 }
 /*small*/
 @media(min-width:768px){
-	.container1.container2.container3.container4{
+	.container{
 		width:750px;
 	}
 	
@@ -38,15 +38,11 @@
 	justify-content:space-between;
 	align-items:center;
 }
-.links{
-position:relative;
-}
+
 .logo{
 	width:50px;
 }
-.links.ul{
-	display:block;
-}
+
 /*end header*/
 /*start landing*/
 .land1{
@@ -67,7 +63,7 @@ text-align:center;
 	position:relative;
 	background-color:#f8f8ff;
 }
-.container2{
+.container-features{
 	display:grid;
 	grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
 	grid-gap:20px;
@@ -86,7 +82,7 @@ text-align:center;
 	background-color:white;
 	position:relative;
 }
-.container4{
+.container-feae{
 	background-color:#f8f8ff;
 	display:grid;
 	grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
@@ -95,7 +91,7 @@ text-align:center;
 
 /*end body*/
 /*start the serivces*/
-@media(max-width(767))
+@media(max-width:767px)
 {
 	.spe_hading{
 		font-size:60px;
@@ -142,6 +138,7 @@ text-align:center;
 	display:grid;
 	grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
 	grid-gap:30px;
+	
 }
 .fea{
 	padding:30px;
@@ -208,5 +205,96 @@ text-align:center;
 	height:auto;
 	
 }
+.land{
+	background-size:cover;
+	height:90vh;
+	margin:0px;
+	position:relative;
+}
+h1{
+margin:0px;
+}
+*{
+box-sizing:border-box;
+}
+.tf2{
+top:100%;
+list-style-type:none;
+overflow:hidden;
+padding:0px;
+background-color:#e4e3e1;
+display:none;
+}
+.tf2 li{
+border:1px solid red;
+padding:10px;
+}
+.tf2 li a{
+color:red;
+text-decoration:none;
+padding:10px;
+font-size:20px;
 
+}
+.tf2 li a:hover{
+padding-left:20px;
+text-decoration:none;
+
+}
+header{
+font-size:20px;
+padding:20px;
+}
+.tf3{
+	display: flex;
+}
+@media(max-width:767px)
+{
+	.tf3{
+		display: none;
+	}
+}
+
+.tf3 ul{
+
+background-color:red;
+color:red;
+overflow:hidden;
+padding:0px;
+margin:0px;
+}
+.tf3 li{
+float:left;
+}
+.tf3 li a{
+background-color:#1A8E94;
+color:red;
+padding:10px;
+display:block;
+text-decoration:none;
+}
+.tf3 li a:hover{
+background-color:#4BB4D3;
+color:#e7f1fb;
+}
+.tf3{
+position:relative;
+}
+.links{
+position:relative;
+display: table-column;
+}
+@media(min-width:768px)
+{
+	.links{
+		display: none;
+	}
+}
+.links.ul{
+	display:block;
+}
+.img1{
+width:100%;
+height:auto;
+}
 /*end support*/
